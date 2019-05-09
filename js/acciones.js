@@ -10,10 +10,10 @@ $('#derecha').on("swiperight",function(){
 		{
 			case 1:
 			navigator.notification.beep(1);
-			break
-			case2:
+			break;
+			case 2:
 			navigator.notification.vibrate(1000);
-			break
+			break;
 		}
 	},"Aplication","Beep,Vibrar,Cancelar");
 });
